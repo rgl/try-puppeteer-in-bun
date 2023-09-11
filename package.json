@@ -1,0 +1,14 @@
+{
+  "name": "try-puppeteer-in-bun",
+  "module": "main.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  }
+}
