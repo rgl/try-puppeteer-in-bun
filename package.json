@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "commander": "^11.1.0",
     "puppeteer": "^21.6.1"
   }
 }
