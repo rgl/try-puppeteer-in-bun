@@ -12,6 +12,7 @@ Execute:
 
 ```bash
 bun install --frozen-lockfile
+bun pm ls --all
 #rm -rf ~/.cache/puppeteer
 bun run main.js
 ```
