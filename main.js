@@ -20,11 +20,6 @@ function log() {
 }
 
 // ensure the browser is installed.
-// NB this is required because Bun does not execute arbitrary dependencies
-//    lifecycle scripts, such as postinstall. even if it did, currently,
-//    puppeteer assumes node is being used, so that would not work either.
-//    see https://github.com/puppeteer/puppeteer/blob/puppeteer-v21.6.1/packages/puppeteer/package.json#L41
-//    see https://bun.sh/docs/cli/install#trusted-dependencies
 async function browserInstall() {
     let downloaded = false;
     const chromeVersion = PUPPETEER_REVISIONS.chrome;

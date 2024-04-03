@@ -3,13 +3,13 @@
   "module": "main.js",
   "type": "module",
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "^1.1.0"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.4.3"
   },
   "dependencies": {
-    "commander": "^11.1.0",
-    "puppeteer": "^21.6.1"
+    "commander": "^12.0.0",
+    "puppeteer": "^22.6.2"
   }
 }
